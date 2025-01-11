@@ -1,14 +1,25 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, rgb(106, 7, 133), rgb(33, 2, 41));
     padding: 0;
     margin: 0;
-    padding-bottom: 100px;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
 .navbar{
-    padding: 0.5rem;
-    background-color: rgb(131, 53, 176);
+    padding: 1rem;
+    background-color: rgb(31, 27, 27);
+}
+
+.navbar a{
+    color: rgb(224, 224, 215);
+    
+}
+.navbar a:hover{
+    color: rgb(219, 3, 247);
+    
 }
 
 .navbar-collapse{
@@ -17,18 +28,73 @@ body{
 }
 
 
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.hero{
+    background-color: linear-gradient(to right, rgb(185, 100, 209), rgb(82, 12, 99));
+    min-height: 450px;
+}
+
+.hero-principal{
+    padding:  1px;
+
+}
+
+.hero-imagen-desarrollador{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: rgb(239, 233, 233);
+}
+
+.hero-inferior-imagen{
+    width: 80px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.hero-inferior-imagen:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+
+}
+footer{
+    background-color: whitesmoke;
+    color: rgb(30, 30, 30);
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/*Adaptable responsive*/
 @media screen and (max-width: 767px) {
     .navbar-brand{
         display: none;
     }
 }
 
-footer{
-    background-color: whitesmoke;
-    color: rgb(30, 30, 30);
-    padding: 15px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+@media screen and (min-width:700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
 }

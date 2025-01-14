@@ -13,7 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bree+Serif&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bree+Serif&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <title>Gabr!ela | Desarrollo Web</title>
 </head>
 
@@ -30,7 +32,7 @@
                     </a>
                     <ul class="navbar-nav d-flex justify-content-center align-items-center">
                         <li class="nav-item">
-                            <a id="active" class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            <a id="active" class="nav-link" aria-current="page" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#proyectos">Proyectos</a>
@@ -52,8 +54,8 @@
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
             <img class="hero-imagen-desarrollador " src="/assets/images/chicapc.png" alt="foto-chica">
             <h1>Hola!, soy Gabriela</h1>
-            <h2>Desarrolladora Web. </h2>
-        </div>
+            <h2>Desarrolladora Web. </h2><br>
+        </div><br>
         <div class="hero-inferior">
             <img class="hero-inferior-imagen img-fluid" src="/assets/images/htmlimg.png" alt="html">
             <img class="hero-inferior-imagen img-fluid" src="/assets/images/cssimag.png" alt="css">
@@ -110,16 +112,16 @@
         <div class="contenedor">
             <h2 class="seccion-titulo">Sobre mí</h2>
             <p class="seccion-texto">
-                Programadora formandome como Tecnica Universitaria en Desarrollo Web en la Universidad Nacional de Entre Rios. Busco siempre trabajar en equipo cooperando con todos y brindando apoyo de la mejor manera posible, recibiendo de manera positiva feedbacks para así trabajar con mentorías que me ayuden a crecer profesionalmente. 
+                Hola! soy Gabriela Programadora formándome como Técnica Universitaria en Desarrollo Web en la Universidad Nacional de Entre Ríos. Busco siempre trabajar en equipo cooperando con todos y brindando apoyo de la mejor manera posible, recibiendo de manera positiva feedbacks para así trabajar con mentorías que me ayuden a crecer profesionalmente. 
 
             </p>
         </div>
     </section>
 
     <!--Contacto-->
-    <section id="contacto" class="contacto d-flex flex-column">
-        <div class="card text-center">
-            <div class="card-body">
+    <section id="contacto" class="contacto d-flex">
+        <div class="contenedor">
+            <div class="d-flex flex-column">
                 <h3 class="titulo-card">Let's get in touch</h3>
                 <p class="texto-card">Contactame para iniciar tu proyecto y lo haremos real.</p>
                 <a href="mailto:gabrielasan07@gmail.com" class="button">
@@ -131,9 +133,23 @@
         </div>
     </section>
 
-
-
-    <footer>©2025 - Site design and develop by Gabr!ela.</footer>
+<!--Pie de pagina-->
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="/assets/images/code.png" alt="code">
+        <p class="footer-texto text-center">Contáctame por mis redes sociales.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="linkedin.com/in/gabrielamsanchez23" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/gabrielamsanchez" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+            </a>
+            <a href="mailto:gabrielasan07@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-at-fill"></i>
+            </a>
+        </div>
+        <p class="text-center">&#169 2025 - Site design and develop by Gabr!ela.</p>
+    </footer>
     
 
 

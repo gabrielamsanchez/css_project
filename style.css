@@ -1,11 +1,8 @@
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "DM Sans", serif;
     background: linear-gradient(101deg, #927DDB -28.86%, #EF98D4 101.36%);
     padding: 0;
     margin: 0;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
 }
 
 .navbar{
@@ -94,11 +91,12 @@ h1{
 }
 
 .sobre-mi .contenedor{
-    max-width: 600px;
+    max-width: 500px;
     text-align: center;
     margin: 10px;
     padding: 10px;
 }
+
 .seccion-titulo{
     margin: 10px;
     padding: 10px;
@@ -145,6 +143,7 @@ h1{
     text-align: center;
 
 }
+
 .overlay p{
     font-family: "Bagel Fat One", serif;
     font-size: 20px;
@@ -181,13 +180,17 @@ h1{
 
 /*Contacto*/
 
-.card{
+.contacto .contenedor{
     background-color: white;
     border: 2px solid #EF98D4;
     border-radius: 20px;
-    height: 200px;
-    width: 600px;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
 }
+
+
 .titulo-card{
     font-family: "Bagel Fat One", serif;
     font-weight: bold;
@@ -195,9 +198,10 @@ h1{
     margin: 10px;
     padding: 10px;
 }
+
 .contacto button{
     color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "DM Sans", serif;
     font-size: medium;
     background: linear-gradient(101deg, #927DDB -28.86%, #EF98D4 101.36%);
     width: 150px;
@@ -221,14 +225,58 @@ h1{
     font-size: 20px;
 }
 
+/*pie de pagina*/
 
 footer{
-    background-color: rgb(31, 27, 27);
+    min-height: 200px;
+    background:  rgb(31, 27, 27);
     color: rgb(253, 253, 253);
-    padding: 15px;
-    text-align: center;
-    margin-top: auto;
 }
+
+
+.footer-logo{
+    height: 65px;
+    width: 65px;
+    margin: 10px;
+    
+}
+
+.footer-texto{
+    font-size: 1rem;
+    padding: 10px;
+    margin: 0;
+}
+
+footer p{
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 0;
+    transition: all 0.2s ease-in;
+
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover i{
+    color: darkorchid;
+}
+
+
+
 
 /*Adaptable responsive*/
 @media screen and (max-width: 767px) {

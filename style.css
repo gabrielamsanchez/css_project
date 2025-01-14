@@ -1,6 +1,6 @@
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, rgb(106, 7, 133), rgb(33, 2, 41));
+    background: linear-gradient(101deg, #927DDB -28.86%, #EF98D4 101.36%);
     padding: 0;
     margin: 0;
     display: grid;
@@ -197,6 +197,7 @@ h1{
 .contacto button{
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
     background: linear-gradient(101deg, #927DDB -28.86%, #EF98D4 101.36%);
     width: 150px;
     height: 45px;
@@ -224,8 +225,8 @@ h1{
 
 
 footer{
-    background-color: whitesmoke;
-    color: rgb(30, 30, 30);
+    background-color: rgb(31, 27, 27);
+    color: rgb(253, 253, 253);
     padding: 15px;
     text-align: center;
     margin-top: auto;
